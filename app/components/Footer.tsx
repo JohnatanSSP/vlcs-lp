@@ -97,12 +97,12 @@ export default function Footer() {
                   placeholder="Digite seu melhor e-mail"
                   className="flex-1 px-4 py-2 text-sm outline-none text-black"
                 />
-                <button onClick={openModal} type="submit" className="bg-black px-4 text-white text-sm cursor-pointer hover:bg-gray-800 transition">
+                <button onClick={openModal} type="submit" className="bg-black px-4 text-white text-sm cursor-pointer hover:bg-gray-800 transition duration-300">
                   →
                 </button>
 
                 {isOpen && (
-                  <div className="fixed inset-0 z-50 flex items-center justify-center">
+                  <div className="fixed inset-0 z-50 flex items-center justify-center overflow-hiddden transition-all duration-300">
                     {/* Overlay escuro */}
                     <div
                       className="absolute inset-0 bg-black/50"
@@ -131,12 +131,6 @@ export default function Footer() {
 
                       {/* Botões de ação */}
                       <div className="flex justify-end gap-3">
-                        <button
-                          onClick={closeModal}
-                          className="px-4 py-2 text-gray-600 hover:text-gray-800"
-                        >
-                          Fechar
-                        </button>
                         <button
                           onClick={closeModal}
                           className="px-4 py-2 bg-white text-black rounded hover:bg-black hover:text-white border-solid border-2 border-white transition duration-300"
