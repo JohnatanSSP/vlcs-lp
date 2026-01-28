@@ -1,9 +1,7 @@
 'use client';
 
-import Link from 'next/link';
-import { Instagram, Facebook, Tiktok, Menu } from 'lucide-react';
 import Image from 'next/image';
-import { TikTok_Sans } from 'next/font/google';
+
 
 export default function Navbar() {
   return (
