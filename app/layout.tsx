@@ -19,11 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className="scroll-smooth">
       <head>
         <link rel="icon" href="/images/favIcon.png" sizes="any" />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className + "scroll-smooth antialiased"}>
         {children}
       </body>
     </html>

@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: "Inter", sans-serif Arial, sans-serif;
 }
+html{
+  scroll-behavior: auto;
+} 
+*{
+  scroll-behavior: smooth;
+}
