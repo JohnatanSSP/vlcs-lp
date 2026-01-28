@@ -23,10 +23,10 @@ export default function Navbar() {
 
         {/* Redes Sociais */}
         <div className="hidden lg:flex items-center space-x-2">
-          <img src="/images/redes/insta.png" alt="Instagram" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" />
-          <img src="/images/redes/face.png" alt="Facebook" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" />
-          <img src="/images/redes/tiktok.png" alt="TikTok" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" />
-          <img src="/images/redes/youtube.png" alt="Email" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" />
+          <a href="https://www.instagram.com/vlcsbrasil/"><img src="/images/redes/insta.png" alt="Instagram" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" /></a>
+          <a href="https://www.facebook.com/VLCSnation"><img src="/images/redes/face.png" alt="Facebook" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" /></a>
+          <a href="https://www.tiktok.com/@vlcs_oficial"><img src="/images/redes/tiktok.png" alt="TikTok" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" /></a>
+          <a href="https://www.youtube.com/@vlcs_oficial"><img src="/images/redes/youtube.png" alt="Email" className="h-5 w-5 cursor-pointer hover:scale-120 transition duration-300" /></a>
         </div>
          
       </div>
