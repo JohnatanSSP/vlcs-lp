@@ -12,7 +12,7 @@ export default function Hero() {
 
             <div className="absolute inset-0 bg-gradient-to-b from-black/100 via-transparent to-black/20"></div>
             <video
-                src="/video/VLCS_Fashion_Film_Timeline_26.mp4"
+                src="/video/video_hero.mp4"
                 autoPlay
                 muted
                 loop
