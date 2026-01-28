@@ -1,6 +1,7 @@
 'use client';
 import { useState } from "react"
 import { X } from 'lucide-react'
+import Image from "next/image";
 
 export default function Footer() {
   const [isOpen, setIsOpen] = useState(false)
@@ -98,7 +99,7 @@ export default function Footer() {
                   className="flex-1 px-4 py-2 text-sm outline-none text-black"
                 />
                 <button onClick={openModal} type="submit" className="bg-black px-4 text-white text-sm cursor-pointer hover:bg-gray-800 transition duration-300">
-                  →
+                  <Image src="/images/email.png" alt="Enviar" width={10} height={10} />
                 </button>
 
                 {isOpen && (
