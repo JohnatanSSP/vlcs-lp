@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Hero from "./components/Hero";
 import Campanha from "./components/Campanha";
 import TimelineInverno2026 from "./components/TimeLineInverno";
