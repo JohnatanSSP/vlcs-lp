@@ -102,16 +102,19 @@ export default function Footer() {
               </h3>
 
               <div className="flex gap-4">
+                <a href="https://apps.apple.com/br/app/vlcs/id6738990252">
                 <img
                   src="/images/Baixar na App Store.png"
                   alt="Download App Store"
                   className="h-10 cursor-pointer"
-                />
+                /></a>
+                <a href="https://play.google.com/store/apps/details?id=com.magazord.site.vlcs&hl=pt_BR&pli=1">
                 <img
                   src="/images/Baixar na Play Store.png"
                   alt="Download Google Play"
                   className="h-10 cursor-pointer"
                 />
+                </a>
               </div>
             </div>
           </div>

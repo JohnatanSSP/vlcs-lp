@@ -3,16 +3,19 @@
 type TimelineImage = {
     src: string
     alt?: string
+    link: string
 }
 
 interface TimelineProps {
     title?: string
     images: TimelineImage[]
+    link?: string
 }
 
 export default function MaisVendidos({
     title = "Mais Vendidos",
     images,
+    link,
 }: TimelineProps) {
     return (
         <section className="w-full bg-black py-16 px-4">
@@ -37,7 +40,7 @@ export default function MaisVendidos({
                         <div className="bg-transparent pt-4 flex justify-center items-center h-6">
                             <p className="pointer-events-none
                                 bg-transparent
-                                text-white text-sm font-medium
+                                text-white text-sm font-small
                                  translate-y-1
                                 transition-all duration-500
                                  group-hover:translate-y-0

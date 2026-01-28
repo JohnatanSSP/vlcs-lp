@@ -34,9 +34,9 @@ export default function Campanha() {
             </div>
 
             <div className="relative flex flex-col space-y-6 w-40%">
-                <div className='absolute bottom-0 bg-white w-[550px] h-[370px] rounded-2xl z-10'></div>
-
-                <div className="w-[550px] h-[430px] rounded-2xl overflow-hidden z-20 ">
+                <div className='absolute bottom-0  w-[550px] h-[370px] rounded-2xl z-10'></div>
+                <Image className='absolute bottom-0 w-[550px] h-[370px] bg-cover bg-center bg-no-repeat bg-[url("/images/Rectangle 1.png")] z-0' src="/images/Rectangle 1.png" alt="Imagem" width={550} height={370} />
+                <div className="w-[550px] h-[430px] rounded-2xl overflow-hidden z-30  " >
                     <Image
                         src="/images/Rectangle 2.png"
                         alt="Imagem"

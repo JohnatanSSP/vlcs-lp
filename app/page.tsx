@@ -20,10 +20,10 @@ export default function Home() {
       />
       <MaisVendidos
         images={[
-          {src: "/images/Jaqueta VLCS Minimalista.png", alt: "Jaqueta VLCS Minimalista"},
-          {src: "/images/Bermuda Híbrida VLCS Aurora.png", alt: "Bermuda Híbrida VLCS Aurora"},
-          {src: "/images/Camiseta Minimalista VLCS Slim.png", alt: "Camiseta Minimalista VLCS Slim"},
-          {src: "/images/Boardshorts VLCS Azure.png", alt: "Boardshorts VLCS Azure"}
+          {src: "/images/Jaqueta VLCS Minimalista.png", alt: "Jaqueta VLCS Minimalista", link: "https://www.vlcs.com.br/jaqueta-vlcs-minimalista?srsltid=AfmBOooFtFXaVCS-lsDobDvX_qxSd_I2Aw6mvfBlX8XKoNhVxJy23xDx"},
+          {src: "/images/Blusa de Moletom Canguru VLCS Minimalista.png", alt: "Blusa de Moletom Canguru VLCS Minimalista", link: "https://www.vlcs.com.br/blusa-de-moletom-canguru-vlcs-minimalista?srsltid=AfmBOopyfn1H828inDQ0PVX3h2dFo6IWKKyew5USrxmUk84lDWNHraGl"},
+          {src: "/images/Blusa de Moletom Aberta VLCS Minimalista.png", alt: "Blusa de Moletom Aberta VLCS Minimalista", link: "https://www.vlcs.com.br/blusa-de-moletom-aberta-vlcs-minimalista?srsltid=AfmBOor93dAvxUhH8PTOPw2psURksu6U4iUmgKlZf9HcmMwYBhyaq6Dc"},
+          {src: "/images/Camiseta Manga Longa Minimalista VLCS Winter.png", alt: "Camiseta Manga Longa Minimalista VLCS Winter", link: "https://www.vlcs.com.br/camiseta-manga-longa-minimalista-vlcs-winter?srsltid=AfmBOoojUTuK5HSFPfyBeqojpP6LyTnGvKbDkJvogUxVmT4cJCrdoGNU"}
         ]}
       />
       <Footer />
