@@ -31,12 +31,14 @@ export default function MaisVendidos({
                         key={index}
                         className="group overflow-hidden bg-transparent h-80 flex flex-col items-center justify-center"
                     >
+                        <a href={image.link}>
                         <img
                             src={image.src}
                             alt={image.alt ?? `Timeline image ${index + 1}`}
                             className="h-70 w-full object-cover cursor-pointer transition-transform duration-700
                                 group-hover:scale-105 "
                         />
+                        
                         <div className="bg-transparent pt-4 flex justify-center items-center h-6">
                             <p className="pointer-events-none
                                 bg-transparent
@@ -46,6 +48,7 @@ export default function MaisVendidos({
                                  group-hover:translate-y-0
                                 z-10">{image.alt}</p>
                         </div>
+                        </a>
 
                     </div>
                 ))}
